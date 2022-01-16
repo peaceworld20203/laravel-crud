@@ -14,6 +14,9 @@
                     <li class="nav-item">
                         <router-link to="/posts" class="nav-link">All articles</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link to="/add" class="nav-link">Add articles</router-link>
+                    </li>
                 </ul>
             </div>
         </nav>

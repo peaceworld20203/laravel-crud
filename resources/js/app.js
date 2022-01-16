@@ -17,6 +17,7 @@ import HomeComponent from './components/HomeComponent.vue';
 import CreateComponent from './components/CreateComponent.vue';
 import IndexComponent from './components/IndexComponent.vue';
 import EditComponent from './components/EditComponent.vue';
+import AddComponent from './components/AddComponent.vue';
 
 const routes = [
     {
@@ -38,7 +39,12 @@ const routes = [
         name: 'edit',
         path: '/edit/:id',
         component: EditComponent
-    }
+    },
+    {
+        name: 'add',
+        path: '/add',
+        component: AddComponent
+    },
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes});
